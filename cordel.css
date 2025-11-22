@@ -1,14 +1,27 @@
 body {
-  max-height: 10vh;
+  display: grid;
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  /* max-width: 1500px; */
+}
+html,
+body {
+  max-height: 100vh;
 }
 header {
   margin: 0px;
   padding: 0px;
   background-color: #000;
+}
+header p {
+  font-family: "Sriracha", cursive;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+header a:hover {
+  text-decoration: underline;
 }
 p {
   font-family: "Sriracha", cursive;
@@ -28,7 +41,7 @@ p {
 h1 {
   font-family: "Passion One", sans-serif;
   font-variant: small-caps;
-  font-size: 5rem;
+  font-size: 10rem;
 }
 img {
   max-width: 100%;
@@ -46,20 +59,32 @@ section p {
   padding: 0px;
 }
 .bg1 p {
+  margin-top: 100px;
+  margin-bottom: 110px;
   background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
   display: inline-block;
 }
 .bg1 {
   min-height: 500px;
   background-attachment: fixed;
   background-image: url("./imagens/background001.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .bg2 p {
+  margin-top: 100px;
+  margin-bottom: 100px;
   background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
   display: inline-block;
 }
 .bg2 {
   min-height: 500px;
   background-attachment: fixed;
   background-image: url("./imagens/background002.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

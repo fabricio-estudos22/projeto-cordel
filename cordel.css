@@ -60,15 +60,25 @@ section p {
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 576px) {
-  section p {
-    font-size: 1.8rem;
-  }
-}
+
 footer {
   background-color: #000;
   color: #fff;
   padding: 20px;
   font-size: 1.5rem;
   text-align: center;
+}
+@media (max-width: 576px) {
+  section p {
+    font-size: 1.8rem;
+  }
+  footer {
+    padding: 10px;
+    font-size: 16px;
+  }
+  footer a {
+    color: #add8e6;
+    padding: 10px;
+    font-size: 16px;
+  }
 }
